@@ -1,0 +1,42 @@
+---
+title: "Etabli Projet"
+sidebar: fr
+---
+
+<img src="../_icons/icon-projet.svg" alt="" width="80" align="right" style="margin:0 0 1rem 1rem;">
+
+<span class="etabli-badge">Client auto-hébergé</span>
+
+> Vos tâches OpenProject dans votre poche.
+
+Etabli Projet est un client natif iOS et Android pour une instance OpenProject auto-hébergée. Parcourir les tâches (work packages), filtrer, attribuer à une personne ou changer le statut — directement contre votre serveur. L'appli parle l'API officielle HAL+JSON d'OpenProject avec authentification par jeton porteur.
+
+![Projet — écran de connexion avec URL du serveur et jeton d'API.](../_screens/android-login.png){width=320}
+
+## À qui ça s'adresse
+
+Aux équipes qui hébergent OpenProject elles-mêmes, et aux collaborateurs qui, en déplacement, doivent mettre à jour un statut, prendre une tâche ou retrouver une échéance.
+
+## Plateformes
+
+| Plateforme | Statut |
+|------------|--------|
+| iOS        | ✓      |
+| Android    | ✓      |
+
+## Vie privée
+
+Aucun outil d'analyse, aucun SDK tiers. L'authentification se fait sur votre serveur OpenProject auto-hébergé. Les identifiants (URL + jeton d'API) résident uniquement dans le coffre-fort de la plateforme (iOS Keychain · Android EncryptedSharedPreferences) et ne sont envoyés qu'à l'instance configurée.
+
+## Installation
+
+| Plateforme | Distribution |
+|------------|--------------|
+| iOS        | App Store |
+| Android    | Google Play et F-Droid (dépôt principal) |
+
+Détails : voir [Premiers pas](getting-started.qmd).
+
+## Soutenir
+
+Si l'appli vous est utile : [Liberapay](https://liberapay.com/rabanheller/) · dans l'appli même vous trouverez également un lien Buy-Me-a-Coffee.

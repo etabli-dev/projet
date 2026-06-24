@@ -1,0 +1,42 @@
+---
+title: "Funktionen"
+sidebar: de
+---
+
+Projet ist ein fokussierter Mobil-Client, kein Ersatz für die OpenProject-Web-Oberfläche. Er deckt die im Alltag mobil benötigten Aktionen ab.
+
+## Module
+
+| Bereich | Funktion |
+|---------|----------|
+| **Projektliste** | Alle für dich sichtbaren Projekte. |
+| **Work-Package-Liste** | Aufgaben des gewählten Projekts mit Typ, Status, Zugewiesenem. |
+| **Filter** | Nach Status (offen, in Bearbeitung, …), Zugewiesenem, Typ. |
+| **Detailansicht** | Beschreibung, Verantwortlicher, Priorität, Termin, Verlauf. |
+| **Aktionen** | Status setzen, Zuweisen, Termin ändern. |
+
+## Workflows
+
+| Ziel | Schritte in der App |
+|------|---------------------|
+| Eigene offene Aufgaben sichten | Filter → „Mir zugewiesen" + „Offen" → Liste. |
+| Eine Aufgabe übernehmen | Detail → Zugewiesener → Person wählen. |
+| Status nach Erledigung setzen | Detail → Status → neuer Status → bestätigen. |
+| Fälligkeitsdatum verschieben | Detail → Termin → neues Datum → speichern. |
+
+## Auth & Netzwerk
+
+| Aspekt | Verhalten |
+|--------|-----------|
+| Auth | OAuth-Token im `Authorization: Bearer …`-Header. |
+| Endpunkt | ausschließlich die konfigurierte OpenProject-URL. |
+| Daten-Format | HAL+JSON (OpenProject-API v3). |
+| Sonstige Hosts | werden nicht kontaktiert. |
+
+## Bezug
+
+| Kanal | App |
+|-------|-----|
+| App Store (iOS) · Google Play (Android) | Etabli Projet |
+| F-Droid — Haupt-Repository | Etabli Projet |
+| Quellcode | [`etabli-dev/etabli-projet`](https://github.com/etabli-dev/etabli-projet) |

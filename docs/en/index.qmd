@@ -1,0 +1,42 @@
+---
+title: "Etabli Projet"
+sidebar: en
+---
+
+<img src="../_icons/icon-projet.svg" alt="" width="80" align="right" style="margin:0 0 1rem 1rem;">
+
+<span class="etabli-badge">Self-hosted client</span>
+
+> Your OpenProject work packages in your pocket.
+
+Etabli Projet is a native iOS and Android client for a self-hosted OpenProject instance. Browse work packages, filter, assign to a person or update status — straight against your own server. The app speaks OpenProject's official HAL+JSON API with bearer-token authentication.
+
+![Projet — login screen with server URL and API token.](../_screens/android-login.png){width=320}
+
+## Who benefits
+
+Teams self-hosting OpenProject, and individuals who, on the move, need to update a status, claim a task, or look up an upcoming due date.
+
+## Platforms
+
+| Platform | Status |
+|----------|--------|
+| iOS      | ✓      |
+| Android  | ✓      |
+
+## Privacy
+
+No analytics, no third-party SDKs. Sign-in happens on your self-hosted OpenProject server. Credentials (URL + API token) live only in the platform secure store (iOS Keychain · Android EncryptedSharedPreferences) and only go to the configured instance.
+
+## Installation
+
+| Platform | Source |
+|----------|--------|
+| iOS      | App Store |
+| Android  | Google Play and F-Droid (main repository) |
+
+Details: see [Getting Started](getting-started.qmd).
+
+## Support
+
+If you find the app useful: [Liberapay](https://liberapay.com/rabanheller/) · inside the app you will also find a Buy-Me-a-Coffee link.

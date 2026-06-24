@@ -1,0 +1,42 @@
+---
+title: "Features"
+sidebar: en
+---
+
+Projet is a focused mobile client — not a replacement for the OpenProject web UI. It covers the actions you need on the move.
+
+## Modules
+
+| Area | What it does |
+|------|--------------|
+| **Project list** | Every project visible to you. |
+| **Work-package list** | Work packages in the selected project with type, status, assignee. |
+| **Filters** | By status (open, in progress, …), assignee, type. |
+| **Detail view** | Description, responsible, priority, due date, history. |
+| **Actions** | Set status, assign, change due date. |
+
+## Workflows
+
+| Goal | In the app |
+|------|------------|
+| Triage your open work | Filters → "Assigned to me" + "Open" → list. |
+| Claim a task | Detail → Assignee → pick a person. |
+| Mark something done | Detail → Status → new status → confirm. |
+| Push a due date | Detail → Due date → new date → save. |
+
+## Auth & network
+
+| Aspect | Behaviour |
+|--------|-----------|
+| Auth | OAuth token in the `Authorization: Bearer …` header. |
+| Endpoint | only the configured OpenProject URL. |
+| Data format | HAL+JSON (OpenProject API v3). |
+| Other hosts | not contacted. |
+
+## Where to get it
+
+| Channel | App |
+|---------|-----|
+| App Store (iOS) · Google Play (Android) | Etabli Projet |
+| F-Droid — main repository | Etabli Projet |
+| Source code | [`etabli-dev/etabli-projet`](https://github.com/etabli-dev/etabli-projet) |
